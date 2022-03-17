@@ -6,6 +6,7 @@ AppBar buildAppBar(BuildContext context) {
     leading: Icon(
       Icons.arrow_back_ios,
       color: const Color.fromRGBO(24, 52, 81, 1),
+      size: 15,
     ),
     elevation: 0,
     backgroundColor: Colors.transparent,

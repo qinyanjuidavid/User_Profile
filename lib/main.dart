@@ -18,10 +18,10 @@ class _MyProfileState extends State<MyProfile> {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primaryColor: Colors.green,
+        primaryColor: Color.fromARGB(234, 234, 234, 255),
         iconTheme: IconThemeData(color: Colors.black),
       ),
-      title: "Deveint Profile",
+      title: "Deveint Interview",
       home: ProfilePage(),
     );
   }
